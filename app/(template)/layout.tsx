@@ -10,10 +10,7 @@ export default function ExampleSiteLayout({
       </header>
 
       <div className="grid grid-cols-1 md:grid-cols-[250px_1fr]">
-        <nav
-          className="bg-purple-900 md:min-h-[calc(100vh-auto)]"
-          role="navigation"
-        >
+        <nav className="bg-purple-900" role="navigation">
           Sidenav
         </nav>
 
