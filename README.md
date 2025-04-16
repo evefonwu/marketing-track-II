@@ -7,3 +7,5 @@ How would I create a full site, even if just one page that's integrated?
 First build:
 
 Starting from an accessible, customizable [form input field](https://marketing-track-ii.vercel.app/input-field)
+
+Adding an example site layout, figuring out project folder structure
