@@ -8,4 +8,4 @@ First build:
 
 Starting from an accessible, customizable [form input field](https://marketing-track-ii.vercel.app/input-field)
 
-Adding an example site layout, figuring out project folder structure
+Adding an [example site layout](https://marketing-track-ii.vercel.app/example), figuring out project folder structure
