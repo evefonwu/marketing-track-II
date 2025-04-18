@@ -7,6 +7,15 @@
     sans-serif;
 }
 
+@layer components {
+  /* adding custom css classes in tailwindcss */
+  .site-link {
+    @apply font-bold text-xl text-indigo-700 underline 
+           hover:cursor-pointer hover:text-indigo-800 
+           focus:text-indigo-800 focus:outline-none;
+  }
+}
+
 .credits {
   color: #777;
   position: fixed;

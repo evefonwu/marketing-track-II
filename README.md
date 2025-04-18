@@ -8,11 +8,13 @@ First build:
 
 Starting from an accessible, customizable [form input field](https://marketing-track-ii.vercel.app/input-field)
 
-Adding an [example site layout](https://marketing-track-ii.vercel.app/example), figuring out project folder structure
+### Site Layout:
 
-The example site layout has a header, side nav, main, and footer.
+Adding an example site layout, figuring out project folder structure
 
-Project structure:
+The [example site layout](https://marketing-track-ii.vercel.app/example) has a header, side nav, main, and footer.
+
+### Project structure:
 
 app/
 
@@ -29,3 +31,13 @@ components/
 - sections/
 
 Element components can be imported into sections, sections can be imported into pages, and pages are nested in layouts.
+
+### Newsletter Page:
+
+Adding [a newsletter subscription page](https://marketing-track-ii.vercel.app/newsletter) - visual design implementation only, no subscription functionality. Newsletter section is imported into a page wrapped by (site) layout, showing a featured abstract image and a form for newsletter subscription.
+
+components/
+
+- sections/
+  - NewsletterForm.tsx (a React client component)
+  - NewsletterSection.tsx
