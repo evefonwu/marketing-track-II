@@ -6,7 +6,9 @@ How would I create a full site, even if just one page that's integrated?
 
 First build:
 
-Starting from an accessible, customizable [form input field](https://marketing-track-ii.vercel.app/input-field)
+Starting from an accessible, customizable [form input field](https://marketing-track-ii.vercel.app/input-field) in a challenge layout
+
+
 
 ### Site Layout:
 
@@ -18,7 +20,7 @@ The [example site layout](https://marketing-track-ii.vercel.app/example) has a h
 
 app/
 
-- (challenges-pages)/ group routes sharing challenges layout
+- (challenge-pages)/ group routes sharing challenges layout
 - (template)/ group routes sharing template layout
 - (site)/ actual site will have its own layout
 - layout.tsx is the root layout
