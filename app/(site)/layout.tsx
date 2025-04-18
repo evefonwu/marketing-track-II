@@ -7,7 +7,7 @@ export default function SiteLayout({
   children: React.ReactNode;
 }) {
   return (
-    <div className="grid grid-cols-1 grid-rows-[100px_1fr_200px] min-h-screen">
+    <div className="grid grid-cols-1 grid-rows-[80px_1fr_200px] min-h-screen">
       <SiteHeader />
       <div className="grid grid-cols-1">
         <main className="">{children}</main>
