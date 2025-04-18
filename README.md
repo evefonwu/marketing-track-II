@@ -1,5 +1,9 @@
 # Motivations for Marketing Track - part II
 
+These are FrontEnd Dev Challenges from [GreatFrontEnd Projects](https://www.greatfrontend.com/projects?ref=challenges).
+
+[Link to Part I Completed Challenges](https://github.com/evefonwu/marketing-track)
+
 In this Part II, I want to focus on different layouts for the site.
 
 How would I create a full site, even if just one page that's integrated?
@@ -7,8 +11,6 @@ How would I create a full site, even if just one page that's integrated?
 First build:
 
 Starting from an accessible, customizable [form input field](https://marketing-track-ii.vercel.app/input-field) in a challenge layout
-
-
 
 ### Site Layout:
 
