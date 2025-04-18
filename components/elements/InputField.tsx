@@ -45,7 +45,7 @@ export default function InputField({
     // Clicking on the label focuses on the <input>
     <label
       htmlFor={`${id}-input`}
-      className="font-medium text-sm text-neutral-700"
+      className="font-medium text-md text-neutral-700"
     >
       {label}
       <input
@@ -58,7 +58,7 @@ export default function InputField({
         autoComplete={type}
         required
         className={classNames(
-          "w-full bg-neutral-50 px-3.5 py-2.5 rounded border border-solid border-neutral-200 my-3 font-normal text-sm text-neutral-500 outline-none transition-colors duration-300",
+          "w-full bg-neutral-50 px-3.5 py-2.5 rounded border border-solid border-neutral-200 my-3 font-normal text-md text-neutral-500 outline-none transition-colors duration-300",
           isDisabled
             ? "text-neutral-400 cursor-not-allowed"
             : "text-neutral-900",
@@ -75,13 +75,13 @@ export default function InputField({
       />
 
       {hint && (
-        <div id={`${id}-hint`} className="font-normal text-sm text-neutral-500">
+        <div id={`${id}-hint`} className="font-normal text-md text-neutral-500">
           {hint}
         </div>
       )}
 
       {errorMessage && (
-        <div id={`${id}-error`} className="font-normal text-sm text-red-600">
+        <div id={`${id}-error`} className="font-normal text-md text-red-600">
           {errorMessage}
         </div>
       )}
