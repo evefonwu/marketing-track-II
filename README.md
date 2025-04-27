@@ -10,13 +10,13 @@ How would I create a full site, even if just one page that's integrated?
 
 First build:
 
-Starting from an accessible, customizable [form input field](https://marketing-track-ii.vercel.app/input-field) in a challenge layout
+Starting from an accessible, customizable form input field in a challenge layout
 
 ### Site Layout:
 
 Adding an example site layout, figuring out project folder structure
 
-The [example site layout](https://marketing-track-ii.vercel.app/example) has a header, side nav, main, and footer.
+The example site layout has a header, side nav, main, and footer.
 
 ### Project structure:
 
@@ -38,10 +38,16 @@ Element components can be imported into sections, sections can be imported into 
 
 ### Newsletter Page:
 
-Adding [a newsletter subscription page](https://marketing-track-ii.vercel.app/newsletter) - visual design implementation only, no subscription functionality. Newsletter section is imported into a page wrapped by (site) layout, showing a featured abstract image and a form for newsletter subscription.
+Adding a newsletter subscription page - visual design implementation only, no subscription functionality. Newsletter section is imported into a page wrapped by (site) layout, showing a featured abstract image and a form for newsletter subscription.
 
 components/
 
 - sections/
   - NewsletterForm.tsx (a React client component)
   - NewsletterSection.tsx
+
+### Application Deployment:
+
+On Vercel hobby plan with limited number of repositories for deployment - so I'm going to remove this repo from deployment.
+
+Have added docs/ screenshots for reference
